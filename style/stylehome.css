@@ -59,12 +59,15 @@ ul {
 }
 
 .intro {
-    min-width: 900px;
-    flex: 1;
+    flex: 1 1 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .food {
    flex: 1 1 500px;
     height: auto;
     max-width: 650px;
+    border-radius: 15%;
 }
