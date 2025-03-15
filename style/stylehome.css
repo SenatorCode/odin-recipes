@@ -13,7 +13,7 @@ html body {
 }
 
 body {
-    background-color: #F5ECE1 ;
+    background-color: #F5ECE1;
 }
 
 main {
@@ -70,10 +70,9 @@ ul {
 
 .food {
    flex: 1 1 500px;
-    height: auto;
+    height: auto; 
     max-width: 650px;
     border-radius: 15%;
-
 }
 
 .recipes {
@@ -107,3 +106,42 @@ a {
     text-decoration: none;
     color: black;
 }
+
+p, li, ul {
+    font-size: 1.25rem;
+}
+
+.quote {
+    background-color: #E0D6C9; /* A warm contrast to your main body (#F5ECE1) */
+    text-align: center;
+    padding: 40px 20px;
+    width:100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: #4B2E20; /* Matches your header */
+    color: #F5ECE1; /* Matches your main body */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+  }
+  
+  .footer-content {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  footer nav a {
+    color: #F5ECE1;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
