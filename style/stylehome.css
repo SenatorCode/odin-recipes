@@ -24,6 +24,7 @@ main {
     background-color: #4B2E20;
     display: flex;
     margin: 0;
+    max-width: 100%;
 }
 
 img {
@@ -31,7 +32,7 @@ img {
     width: 100px;
 }
 
-a  .head{
+.head{
     color: #FAF3E0;
 }
 
@@ -39,7 +40,7 @@ a  .head{
     align-self: center;
     display: flex;
     gap: 14px;
-    margin: 0 12px;
+    margin: 0 20px;
 }
 
 .right-links {
@@ -49,13 +50,15 @@ a  .head{
 ul {
     list-style: none;
 }
+
 .main {
     display: flex; 
-    margin: 15px 0;
+    margin: 30px 0 50px 0;
     padding: 0 15px;
     height: auto;
     width: 100%;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .intro {
@@ -70,4 +73,37 @@ ul {
     height: auto;
     max-width: 650px;
     border-radius: 15%;
+
+}
+
+.recipes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.recipe {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    border-radius: 10%;
+}
+
+.recipe img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    max-width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
