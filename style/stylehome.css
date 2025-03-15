@@ -1,10 +1,66 @@
-body {
-    background-color: #FAF3E0;
-    color: #2C3E50;
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 50px;
+html body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Besley, serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #F5ECE1 ;
+}
+.header {
+    background-color: #4B2E20;
+    display: flex;
+    margin: 0;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+a  .head{
+    color: #FAF3E0;
+}
+
+.link {
+    align-self: center;
+    display: flex;
+    gap: 14px;
+    margin: 0 12px;
+}
+
+.right-links {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+}
+.main {
+    display: flex; 
+    margin: 15px 0;
+    padding: 0 15px;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.intro {
+    min-width: 768px;
+    max-width: 900px;
+    flex: 1;
+}
+
+.food {
+   flex: 1 1 500px;
+    height: 400px;
+    max-width: 650px;
 }
